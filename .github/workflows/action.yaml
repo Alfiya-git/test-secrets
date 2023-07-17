@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Use Secret
-        run: echo "My API Key is ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: echo "My API Key is ${{ secrets.PERSONAL_ACCESS_TOKEN }}"
         
